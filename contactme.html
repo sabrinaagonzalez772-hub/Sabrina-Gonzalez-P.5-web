@@ -13,7 +13,31 @@
 	<a href="contactme.html">Contact Me</a></div>
 <h1>Contact me</h1>
 <body>
-	
+	<div class="container" style="text-align: center">
+  <form action="action_page.php">
+
+    <label for="fname" style="color:#f6f5f2">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname" style="color:#f6f5f2">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country" style="color:#f6f5f2">Location</label>
+    <select id="country" name="country">
+      <option value="would rather not share">Would rather not share</option>
+      <option value="oceanside">Oceanside</option>
+      <option value="carlsbad">Carlsbad</option>
+		  <option value="vista">Vista</option>
+		  <option value="encinitas">Encinitas</option>
+    </select>
+
+    <label for="subject" style="color:#f6f5f2">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
 	
 	<div style="background-color:#5C98B0; font-size: 17px; text-align: center; color: #5C98B0;">Footer</div>
 	<div style="background-color:#326A80; font-size: 17px; text-align: center; color: #f6f5f2;">Copyright &copy; 2025 Sabrina Gonzalez</div>
